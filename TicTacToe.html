@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta charset="utf-8" />
+        <title>Tic Tac Toe</title>
+        <link type="text/css" href="TTT.css" rel="stylesheet"/>
+    </head>
+    <body id="b">
+        <center>
+            <br /><br /><br />
+            <table id="tbl" border="1" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td style="border-left:hidden;border-top:hidden;border-top-left-radius:20px" id="0" onclick="Game(0)"></td>
+                    <td style="border-top:hidden;" id="1" onclick="Game(1)"></td>
+                    <td style="border-top:hidden;border-right:hidden;border-top-right-radius:20px;" id="2" onclick="Game(2)"></td>
+                </tr>
+                <tr>
+                    <td style="border-left:hidden" id="3" onclick="Game(3)"></td>
+                    <td id="4" onclick="Game(4)"></td>
+                    <td style="border-right:hidden;" id="5" onclick="Game(5)"></td>
+                </tr>
+                <tr>
+                    <td style="border-left:hidden;border-bottom:hidden;border-bottom-left-radius:20px" id="6" onclick="Game(6)"></td>
+                    <td style="border-bottom:hidden" id="7" onclick="Game(7)"></td>
+                    <td style="border-right:hidden;border-bottom:hidden;border-bottom-right-radius:20px" id="8" onclick="Game(8)"></td>
+                </tr>
+            </table>
+
+            <script type="text/javascript" src="TicTacToe.js"></script>
+        </center>
+    </body>
+</html>
